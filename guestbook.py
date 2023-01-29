@@ -11,3 +11,33 @@ class note:
     
     def __str__(self):
         pass
+
+class Main:
+    def __init__(self) :
+        self.notes=[]
+    
+    def add_note(self, text):
+       pass
+
+        
+    
+
+    def edit_note(self, id , text):
+        pass
+    
+    def view_note(self):
+       pass
+
+    def delete_note(self , id):
+        pass
+    
+    def save(self):
+        pass
+    
+
+
+    def load(self):
+       pass
+    
+    def export(self):
+        pass
