@@ -12,3 +12,7 @@ class guestbook_test(unittest.TestCase):
 
     #test new note
     def test_new(self):
+
+        self.assertEqual(guestbook_test.main.notes[0].text , "this is my newest note")
+        self.assertEqual(guestbook_test.main.notes[1].id , 2)
+    
